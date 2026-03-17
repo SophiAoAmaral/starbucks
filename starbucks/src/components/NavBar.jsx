@@ -1,19 +1,33 @@
+import {Link} from 'react-router'
+
 function NavBar(){
     return (
-      <header className="mx-auto text-capitalize flex font-primary uppercase font-bold max-w-7xl justify-between mb-5 mt-5">
+      <header className="mx-auto text-capitalize flex font-primary uppercase font-bold max-w-7xl justify-between mb-5 mt-5  bg-white ">
 
             
               <div className="flex items-center">
-                  <img
-                    src="../public/img/logo.png"
-                    alt="logo starbucls"
-                    className="w-45 block "
-                  />
-                  <ul className="flex ">
-                    <li className="py-3 px-2 ml-1 text-sm hover:text-green-800"><a href="/" className="h">Menu</a></li>
-                    <li className="py-3 px-2 ml-1 text-sm hover:text-green-800"><a href="/">Nosso Café</a></li>
-                    <li className="py-3 px-2 ml-1 text-sm hover:text-green-800"><a href="/">Impacto Social</a></li>
-                  </ul>
+
+                  <Link to='/'>
+                    <img
+                      src="../public/img/logo.png"
+                      alt="logo starbucls"
+                      className="w-45 block "
+                    />
+                  </Link>
+
+                  <div className="flex ">
+                    <Link to='/menu' className="py-3 px-2 ml-1 text-sm hover:text-green-800">
+                        Menu
+                    </Link>
+
+                    <Link to='/NossoCafe' className="py-3 px-2 ml-1 text-sm hover:text-green-800">
+                    Nosso Café
+                    </Link>
+
+                    <Link to='/impacto' className="py-3 px-2 ml-1 text-sm hover:text-green-800">
+                    Impacto Social
+                    </Link>
+                  </div>
               </div>
               <div className="flex items-center">
 

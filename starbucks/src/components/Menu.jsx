@@ -1,6 +1,6 @@
-function Conteudo(){
+function Menu(){
     return(
-        <section className="max-w-7xl mx-auto font-primary">
+        <section className="max-w-7xl mx-auto font-primary ">
 
             <div className="grid grid-cols-2  ">
                 <div className="grid mb-9">
@@ -36,4 +36,4 @@ function Conteudo(){
     )
 }
 
-export default Conteudo;
+export default Menu;
