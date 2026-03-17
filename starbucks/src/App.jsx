@@ -1,5 +1,6 @@
 import NavBar from "./components/NavBar"
 import Conteudo from "./components/Conteudo"
+import Footer from "./components/Footer"
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <>
       <NavBar/>
       <Conteudo/>
+      <Footer/>
     </>
   )
 }

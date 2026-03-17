@@ -3,8 +3,8 @@
 
 
 @layer components {
-   .verde-escuro { background-color: #32462F; }
-   .text-verde-button { color: #00362E; }
-   .text-verde { bgcolor: #006242; }
+   .verde-escuro { background-color: #32462F }
+   .text-verde-button { color: #00362E }
+   .text-verde { color: #006242 }
   .font-primary{font-family: "Sora", sans-serif;};
 }
