@@ -23,7 +23,7 @@ function Footer(){
             ))
             
         }
-        <img src="../public/img/image.png" alt=""  className="mr-4 w-40 h-25  cursor-pointer"/>
+        <img src="../public/img/history.png" alt=""  className="mr-4 w-40 h-25  cursor-pointer"/>
         
         </footer>
     )
