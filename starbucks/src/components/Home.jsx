@@ -1,10 +1,10 @@
 function Home(){
     return(
-        <section className="max-w-7xl mx-auto font-primary ">
+        <section className="max-w-7xl mx-auto font-primary pt-28">
 
             <div className="grid grid-cols-2 ">
 
-                <div className="grid mb-9 verde-escuro">
+                <div className="grid mb-16 verde-escuro">
                     <div className="flex flex-col text-center mt-30">
                     <h1 className="text-4xl  uppercase text-white font-bold mb-3">Novo Espresso Starbucks ®</h1>
                     <p className="mb-3 text-lg text-white">Pensado para o paladar brasileiro - mais equilibrado em sabor e acidez.</p>
@@ -13,15 +13,15 @@ function Home(){
                     </a>
                     </div>
                 </div>
-                <div className="mb-9">
+                <div className="mb-16">
                     <img src="../public/img/expresso.png" alt="" />
                 </div>
 
-                <div className="mb-9">
+                <div className="mb-16">
                     <img src="../public/img/colheita.png" alt="" />
                 </div>
                 
-                <div className="grid bg-green-50/65 mb-9">
+                <div className="grid bg-green-50/65 mb-16">
                     <div className="flex flex-col text-center mt-20">
                         <h1 className="font-black text-4xl uppercase mb-3">Coisas boas estão acontecendo</h1>
                         <p className="mb-3 text-lg px-6 py-3 ">Acreditamos que podemos e devemos gerar um impacto positivo nas comunidades em que atuamos.</p>
@@ -31,7 +31,7 @@ function Home(){
                     </div>
                 </div>
                 
-                <div className="grid bg-orange-100/50 mb-9 py-5">
+                <div className="grid bg-orange-100/50 mb-16 py-5">
                     <div className="flex flex-col text-center mt-20">
                         <h1 className="text-4xl  uppercase font-bold mb-3">Histórias e Notícias Starbucks ®</h1>
                         <p className="mb-2 text-lg px-6 py-4 ">Fique por dentro das novidades e conheça mais sobre nossas iniciativas.</p>

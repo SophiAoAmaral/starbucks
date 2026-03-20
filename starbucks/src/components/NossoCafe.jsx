@@ -1,6 +1,6 @@
 function NossoCafe(){
     return(
-        <section className="max-w-7xl mx-auto font-primary">
+        <section className="max-w-7xl mx-auto font-primary pt-28">
             <div className="grid grid-cols-2 mb-16">
                 <div>
                     <img src="../public/img/graos.png" alt="" />
@@ -15,22 +15,22 @@ function NossoCafe(){
             </div>
 
             <div className="bg-green-10 w-full h-80 mb-16 flex flex-col mx-auto">
-                        <div className="flex self-center items-center ">
+                        <div className="flex self-center items-center p-3 ">
                         <img src="../public/icons/coffe-icon.png" className="w-20 mx-auto" alt="" />
-                        <h1 className="text-4xl font-bold">TORRA</h1>
+                        <h1 className="text-3xl font-bold">TORRA</h1>
                         </div>
                     
                     <div className="flex  self-center gap-6">
-                        <div className="bg-white text-center rounded-2xl p-3">
-                            <img src="../public/icons/coffe-icon.png" className="w-30" alt="" />
+                        <div className="bg-white text-center rounded-2xl p-4">
+                            <img src="../public/icons/coffe-icon.png" className="w-25" alt="" />
                             <p className="text-lg">Torra Clara</p>
                         </div>
-                        <div className="bg-white text-center rounded-2xl p-3">
-                            <img src="../public/icons/coffe-icon.png" className="w-30" alt="" />
+                        <div className="bg-white text-center rounded-2xl p-4">
+                            <img src="../public/icons/coffe-icon.png" className="w-25" alt="" />
                             <p className="text-lg">Torra Média</p>
                         </div>
-                        <div className="bg-white text-center rounded-2xl p-3">
-                            <img src="../public/icons/coffe-icon.png" className="w-30" alt="" />
+                        <div className="bg-white text-center rounded-2xl p-4">
+                            <img src="../public/icons/coffe-icon.png" className="w-25" alt="" />
                             <p className="text-lg">Torra Escura</p>
                         </div>
                     </div>

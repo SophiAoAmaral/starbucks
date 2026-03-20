@@ -30,7 +30,7 @@ function Footer(){
      
 
         <div className="flex flex-col items-center ">
-            <img src="../public/img/starbucks.svg" className="mb-9" alt="" />
+            <img src="../public/img/starbucks.svg" className="mb-9 mt-5" alt="" />
             <div className="flex gap-4 mb-7">
             <div className="bg-black w-10 h-10 rounded-full relative cursor-pointer hover:bg-green-900">
                 <img src="../public/icons/spotify.png" alt=""  className="w-7 h-7 absolute top-1.5 left-1.5 "/>

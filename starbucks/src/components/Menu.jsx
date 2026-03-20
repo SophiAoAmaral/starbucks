@@ -1,12 +1,12 @@
 function Menu(){
     return(
-        <section className="max-w-7xl mx-auto font-primary ">
+        <section className="max-w-7xl mx-auto font-primary pt-28">
 
             <div className="grid grid-cols-2  ">
-                <div className="grid mb-9">
+                <div className="grid mb-16">
                     <img src="../public/img/cafe-principal.png" alt="" />
                 </div>
-                <div className="verde-escuro mb-9">
+                <div className="verde-escuro mb-16">
                     <div className="flex flex-col text-center mt-30">
                     <h1 className="text-4xl  uppercase text-white font-bold mb-3">Cardápio</h1>
                     <p className="mb-3 text-lg text-white">Confira abaixo tudo o que a STARBUCKS® oferece:</p>
