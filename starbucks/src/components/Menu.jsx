@@ -15,7 +15,7 @@ function Menu(){
                     </a>
                     </div>
                 </div>
-                <div className="grid bg-green-50 ">
+                <div className="grid bg-green-10 ">
                     <div className="flex flex-col text-center mt-30">
                         <h1 className="font-black text-4xl uppercase mb-3">Tabela Nutricional</h1>
                         <p className="mb-3 text-lg ">Veja todas as informações dos nossos produtos</p>
