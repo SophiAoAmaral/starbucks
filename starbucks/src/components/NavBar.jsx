@@ -16,7 +16,7 @@ function NavBar(){
                   </Link>
 
                   <div className="flex">
-                    <Link to='/menu' className="py-3 px-2 ml-1 text-sm hover:text-green-800 font-bold relative right-10 active:text-green-800">
+                    <Link to='/menu' className="py-3 px-2 ml-1 text-sm hover:text-green-800 font-bold relative right-10 ">
                         Menu
                     </Link>
 
