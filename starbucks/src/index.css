@@ -6,7 +6,10 @@
    .verde-escuro { background-color: #32462F }
    .text-verde-button { color: #00362E }
    .text-verde { color: #006242 }
-  .font-primary{font-family: "Sora", sans-serif;};
-  .bg-gray{ background-color: #F2F0EB;}
-  .bg-green-10{background-color: #F0F7F5;}
+   .font-primary{font-family: "Sora", sans-serif;};
+   .bg-gray{ background-color: #F2F0EB;}
+   .bg-gray2{background-color: #F7F0E4;}
+   .bg-green-10{background-color: #F0F7F5;}
+   .font-title{font-size: 33px;}
+   .font-p{font-size: 23px;}
 }

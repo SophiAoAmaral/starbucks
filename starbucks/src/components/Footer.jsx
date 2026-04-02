@@ -13,7 +13,7 @@ function Footer(){
             {
             links.map((link) =>(
                 <div>
-                <h1 href="/" className="text-2xl mb-2.5">{link.titulo}</h1>
+                <h1 href="/" className="text-xl mb-2.5 font-semibold">{link.titulo}</h1>
                 <ul>
                     {
                         link.textos.map((texto)=>(
