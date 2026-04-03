@@ -11,7 +11,7 @@ function NossoCafe(){
                     <div className="flex text-center flex-col mt-30 px-8">
                         <h1 className="uppercase text-white text-4xl font-bold mb-3">EXPLORE NOSSOS CAFÉS</h1>
                         <p className="text-white py-3 font-medium text-lg px-3">Independente do seu gosto ou paladar, encontrará um café Starbucks® perfeito para você.</p>
-                        <Link to="/como-preparar-cafe" >
+                        <Link to="/produtos" >
                         <button className="bg-white rounded-full py-2 px-4 w-40 mx-auto mt-2 font-semibold text-green-800">Saiba Mais</button>
                         </Link>
                     </div>
