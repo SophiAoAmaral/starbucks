@@ -47,7 +47,7 @@ function NossoCafe(){
 
                 <div className="bg-orange-100/50 ">
                     <div className="flex flex-col md:mt-10 text-center px-8">
-                      <img src="../public/icons/coffe-icon.png" className="w-25 m-auto" alt="" />
+                      <img src="../public/icons/prensa.png" className="w-25 m-auto" alt="" />
                       <h1 className="font-bold text-2xl md:text-4xl mb-3 px-5">COMO PREPARAR O CAFÉ EM CASA</h1>
                       <p className="md:text-lg  mb-2">Do estudo básico de preparo ao aperfeiçoamento dos detalhes, aprenda como ser um barista de casa.</p>
 
@@ -61,7 +61,7 @@ function NossoCafe(){
             <div className="grid md:grid-cols-2 mb-16">
                 <div className="bg-gray ">
                     <div className="flex flex-col md:mt-15 text-center px-8 ">
-                        <img src="../public/icons/coffe-icon.png" className="w-25 m-auto" alt="" />
+                        <img src="../public/icons/graos.png" className="w-25 m-auto" alt="" />
                         <h1 className="text-2xl md:text-4xl font-bold mb-3 uppercase mt-3 px-5">Como descobrir a torra perfeita para você</h1>
                         <button className="bg-green-900 rounded-full w-35 m-auto py-2 px-4 text-white font-semibold hover:bg-green-950 mb-5 md:mb-0">Saiba mais</button>
                     </div>
