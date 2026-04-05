@@ -1,7 +1,7 @@
 function ImpactoSocial(){
     return(
          <section className="max-w-7xl mx-auto font-primary pt-28 ">
-        <div className="grid lg:grid-cols-2 verde-escuro">
+        <div className="grid lg:grid-cols-2 verde-escuro p-6 md:p-0">
             <nav className="flex justify-center items-center ">
                 <img src="../public/img/image.png" alt="" className="w-30 mt-5 md:w-50"/>
             </nav>
@@ -9,7 +9,7 @@ function ImpactoSocial(){
                 
                     <h1 className="uppercase text-2xl md:font-title font-bold text-white text-center leading-10">Uma empresa que trabalha com responsabilidade social</h1>
                     <p className=" text-xl md:font-p text-white  text-center">Acreditamos que podemos e devemos gerar um impacto positivo nas comunidades em que atuamos.</p>
-                    <p className="text-lg text-white font-light text-center">Desde que abrimos nossa primeira loja em 1971, buscamos a confiança e o respeito de nossos clientes, partners (como chamamos os nossos colaboradores) e vizinhos. Como? Tendo responsabilidade e fazendo coisas boas para o planeta e para as pessoas.</p>
+                    <p className="text-lg text-white font-extralight md:font-light text-center">Desde que abrimos nossa primeira loja em 1971, buscamos a confiança e o respeito de nossos clientes, partners (como chamamos os nossos colaboradores) e vizinhos. Como? Tendo responsabilidade e fazendo coisas boas para o planeta e para as pessoas.</p>
                 
             </nav>
         </div>

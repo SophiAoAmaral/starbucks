@@ -1,13 +1,13 @@
 function Produtos(){
     return(
         <section className="max-w-7xl mx-auto font-primary pt-28">
-            <section className="grid grid-cols-2 mb-10">
+            <section className="grid md:grid-cols-2 mb-10">
                 <div>
                     <img src="../public/img/xicara-cafe.jpeg" alt="" />
                 </div>
-                <div className="verde-escuro flex flex-col">
+                <div className="verde-escuro flex flex-col p-6 md:p-0">
                     <div className="flex flex-col m-auto text-center">
-                        <h1 className="text-4xl uppercase text-white font-bold mb-5">Para todos os gostos</h1>
+                        <h1 className=" text-2xl md:text-4xl mt-4 md:mt-0  uppercase text-white font-bold mb-2 md:mb-5">Para todos os gostos</h1>
                         <p className="text-white text-lg font-medium">Leve o sabor de café que você tanto gosta para a sua casa</p>
                     </div>
                 </div>
@@ -15,7 +15,7 @@ function Produtos(){
 
             <div className="flex  justify-center items-center mb-10 gap-5">
                     <img src="../public/icons/graos.png" alt="" className="w-20" />
-                    <h1 className="text-4xl font-bold uppercase">Cafés Starbucks®</h1>
+                    <h1 className=" text-2xl md:text-4xl font-bold uppercase">Cafés Starbucks®</h1>
                 </div>
 
             <section className="grid md:grid-cols-3 gap-3 ">
