@@ -9,15 +9,15 @@ function Footer(){
     return(
         <footer className="">
             
-            <div className= "px-80 flex font-primary border-t-1 mx-auto gap-30 mt-20 p-10 border-gray-300 mb-8 border-b">
+            <div className= "md:px-30 flex font-primary border-t-1 mx-auto gap:4 md:gap-30 mt-10 md:mt-20 p-10 border-gray-300 md:mb-8 border-b">
             {
             links.map((link) =>(
                 <div>
-                <h1 href="/" className="text-xl mb-2.5 font-semibold">{link.titulo}</h1>
+                <h1 href="/" className="text-xl mb-2.5 mt-5 font-semibold">{link.titulo}</h1>
                 <ul>
                     {
                         link.textos.map((texto)=>(
-                            <li className="mb-4 text-black/95 font-light hover:text-green-950 hover:font-semibold text-sm"><a className="underline" href="">{texto}</a></li>
+                            <li className="md:mb-4 text-black/95 font-light hover:text-green-950 hover:font-semibold text-sm"><a className="underline" href="">{texto}</a></li>
                         ))
                     }
                 </ul>
@@ -25,7 +25,7 @@ function Footer(){
             ))
             
         }
-        <img src="../public/img/history.png" alt=""  className="mr-4 w-40 h-25  cursor-pointer"/>
+        <img src="../public/img/history.png" alt=""  className="mr-4 w-40 h-25 hidden md:block cursor-pointer"/>
         </div>
      
 
@@ -52,10 +52,10 @@ function Footer(){
             </div>
         </div>
         <div className="divide-x divide-neutral-500 flex mt-4 mb-9 ">
-            <a href="" className="px-3 font-light text-lg underline hover:text-green-900 hover:font-semibold transition duration-300 ">Diretrizes de privacidade de dados </a>
-            <a href="" className="px-3 font-light text-lg underline hover:text-green-900 hover:font-semibold transition duration-300 ">Política de troca de produto</a>
-            <a href="" className="px-3 font-light text-lg underline hover:text-green-900 hover:font-semibold transition duration-300 ">Termos de uso</a>
-            <a href="" className="px-3 font-light text-lg underline hover:text-green-900 hover:font-semibold transition duration-300 ">Opção de privacidade</a>
+            <a href="" className="px-3 font-light md:text-lg underline hover:text-green-900 hover:font-semibold transition duration-300 ">Diretrizes de privacidade de dados </a>
+            <a href="" className="px-3 font-light md:text-lg underline hover:text-green-900 hover:font-semibold transition duration-300 ">Política de troca de produto</a>
+            <a href="" className="px-3 font-light md:text-lg underline hover:text-green-900 hover:font-semibold transition duration-300 ">Termos de uso</a>
+            <a href="" className="px-3 font-light md:text-lg underline hover:text-green-900 hover:font-semibold transition duration-300 ">Opção de privacidade</a>
         </div>
 
 
