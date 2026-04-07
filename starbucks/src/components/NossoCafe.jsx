@@ -26,15 +26,15 @@ function NossoCafe(){
                     
                     <div className="flex  self-center gap-6">
                         <div className="bg-white text-center rounded-2xl p-4">
-                            <img src="../public/icons/coffe-icon.png" className="w-25" alt="" />
+                            <img src="../public/icons/coffe-icon-green.png" className="w-25" alt="" />
                             <p className="text-lg">Torra Clara</p>
                         </div>
                         <div className="bg-white text-center rounded-2xl p-4">
-                            <img src="../public/icons/coffe-icon.png" className="w-25" alt="" />
+                            <img src="../public/icons/coffe-icon-green.png" className="w-25" alt="" />
                             <p className="text-lg">Torra Média</p>
                         </div>
                         <div className="bg-white text-center rounded-2xl p-4">
-                            <img src="../public/icons/coffe-icon.png" className="w-25" alt="" />
+                            <img src="../public/icons/coffe-icon-green.png" className="w-25" alt="" />
                             <p className="text-lg">Torra Escura</p>
                         </div>
                     </div>
@@ -52,7 +52,9 @@ function NossoCafe(){
                       <p className="md:text-lg  mb-2">Do estudo básico de preparo ao aperfeiçoamento dos detalhes, aprenda como ser um barista de casa.</p>
 
                       
-                      <button className="bg-green-900 rounded-full w-40 m-auto py-2 px-4 cursor-pointer text-white font-semibold hover:bg-green-950 mb-5 md:mb-0">Saiba mais</button>
+                      
+                      <a className="bg-green-900 rounded-full w-40 m-auto py-2 px-4 cursor-pointer text-white font-semibold hover:bg-green-950 mb-5 md:mb-0">Saiba mais</a>
+                      
                      
                     </div>
                 </div>
@@ -62,8 +64,10 @@ function NossoCafe(){
                 <div className="bg-gray ">
                     <div className="flex flex-col md:mt-15 text-center px-8 ">
                         <img src="../public/icons/graos.png" className="w-25 m-auto" alt="" />
-                        <h1 className="text-2xl md:text-4xl font-bold mb-3 uppercase mt-3 px-5">Como descobrir a torra perfeita para você</h1>
-                        <button className="bg-green-900 rounded-full w-35 m-auto py-2 px-4 text-white font-semibold hover:bg-green-950 mb-5 md:mb-0">Saiba mais</button>
+                        <h1 className="text-2xl md:text-4xl font-bold mb-5 uppercase mt-3 px-5">Como descobrir a torra perfeita para você</h1>
+                        <Link to="/torras">
+                        <a className="bg-green-900 rounded-full w-35 m-auto py-2 px-4 text-white font-semibold hover:bg-green-950 mb-5 md:mb-0 ">Saiba mais</a>
+                        </Link>
                     </div>
                 </div>
                 <div>

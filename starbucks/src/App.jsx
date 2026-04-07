@@ -5,7 +5,8 @@ import Home from "./components/Home"
 import NossoCafe from "./components/NossoCafe"
 import ImpactoSocial from "./components/ImpactoSocial"
 import { Routes,Route } from "react-router"
-import Produtos from "./components/Produtos"
+import Produtos from "./pages/Produtos"
+import Torras from "./pages/Torras"
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
         <Route path="/NossoCafe" element={<NossoCafe />} />
         <Route path="/impacto" element={<ImpactoSocial />} />
         <Route path="/produtos" element={<Produtos />} />
+        <Route path="/torras" element={<Torras/>} />
       </Routes>
       <Footer/>
     </>
