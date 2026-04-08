@@ -3,7 +3,6 @@ import { Link } from "react-router";
 function Menu(){
     return(
         <section className="max-w-7xl mx-auto font-primary pt-28">
-
             <div className="grid md:grid-cols-2  ">
                 <div className="grid md:mb-16 order-2 md:order-1">
                     <img src="../public/img/cafe-principal.png" alt="" />

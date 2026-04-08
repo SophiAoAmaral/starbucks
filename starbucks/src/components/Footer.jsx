@@ -5,7 +5,6 @@ function Footer(){
         {titulo:'Impacto Social', textos:['Comunidade','Meio Ambiente','Fornecimento ético','História Starbucks ®']},
     ];
 
-    const politicas =['Diretrizes de privacidade de dados','Política de troca de produto', 'Termos de uso', 'Opção de privacidade'];
     return(
         <footer className="">
             
