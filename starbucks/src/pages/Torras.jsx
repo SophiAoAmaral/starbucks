@@ -33,15 +33,15 @@ function Torras(){
                     </div>
                 </div>
 
-                <div>
-                    <h1>Espectro de torra</h1>
-                    <div className="flex ">
+                <div >
+                    <h1 className="text-center">Espectro de torra</h1>
+                    <div className="flex gap-6 flex-col md:flex-row justify-center ">
                         {
                             torras.map((torra)=>(
-                            <nav key={torra.id}>
-                                <div>
+                            <nav key={torra.id} className="w-80 ">
+                                <div className="marrom flex flex-col items-center">
                                     <img src="../public/icons/coffe-icon-white.png" alt="" />
-                                    <p>{torra.titulo}</p>
+                                    <p className="uppercase text-white text-xl font-bold">{torra.titulo}</p>
                                 </div>
                                 <div>
                                     <p>{torra.descricao}</p>
