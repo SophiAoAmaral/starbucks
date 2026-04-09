@@ -28,14 +28,11 @@ Navegação simples e intuitiva entre botões e páginas
 
 
 📦 Como rodar o projeto
-# Clone o repositório
+
 git clone https://github.com/SophiAoAmaral/starbucks.git
 
-# Acesse a pasta
 cd starbucks
 
-# Instale as dependências
 npm install
 
-# Rode o projeto
 npm run dev
