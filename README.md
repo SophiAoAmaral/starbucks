@@ -5,9 +5,13 @@ Este projeto é uma recriação da interface do site da Starbucks, desenvolvido 
 A proposta foi reproduzir uma experiência visual próxima da original, aplicando boas práticas de organização de código, componentização e responsividade.
 
 ---------------------------------------------------------------------------
+
 🚀 Tecnologias utilizadas
-React
-Tailwind CSS
+* React
+* Tailwind CSS
+
+---------------------------------------------------------------------------
+
 💻 Sobre o projeto
 
 Este projeto foi desenvolvido com o objetivo de:
@@ -19,6 +23,7 @@ Reforçar boas práticas no desenvolvimento front-end
 
 A interface foi inspirada no site oficial da Starbucks, com foco em fidelidade visual e experiência do usuário.
 
+---------------------------------------------------------------------------
 
 ✨ Funcionalidades
 Layout moderno e responsivo
@@ -26,13 +31,14 @@ Estrutura baseada em componentes
 Estilização com Tailwind CSS
 Navegação simples e intuitiva entre botões e páginas
 
+---------------------------------------------------------------------------
 
 📦 Como rodar o projeto
 
-git clone https://github.com/SophiAoAmaral/starbucks.git
+1- git clone https://github.com/SophiAoAmaral/starbucks.git
 
-cd starbucks
+2- cd starbucks
 
-npm install
+3- npm install
 
-npm run dev
+4- npm run dev
