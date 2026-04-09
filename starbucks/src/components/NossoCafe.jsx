@@ -21,7 +21,7 @@ function NossoCafe(){
             <div className="bg-green-10 w-full h-80 mb-5 md:mb-16 flex flex-col mx-auto">
                         <div className="flex self-center items-center p-3 ">
                         <img src="../public/icons/coffe-icon.png" className="w-20 mx-auto" alt="" />
-                        <h1 className="text-3xl font-bold">TORRA</h1>
+                        <h1 className="text-3xl font-bold mt-9">TORRA</h1>
                         </div>
                     
                     <div className="flex  self-center gap-6">

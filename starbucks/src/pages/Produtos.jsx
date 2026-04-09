@@ -22,44 +22,44 @@ function Produtos(){
 
                 <div className="flex flex-col text-center bg-gray rounded-xl shadow-xs">
                     <img src="../public/cafes/brasil-blend.png" alt="" className="rounded-t-xl" />
-                    <p className="marrom w-full uppercase text-white font-medium p-1">Torra media</p>
+                    <p className="marrom w-full uppercase text-white font-medium p-1">Torra média</p>
                     <h2 className="text-2xl uppercase font-bold mt-3 mb-1">Brasil Blend</h2>
                     <span className="uppercase text-sm font-bold text-green-900 mb-4">Suave & Encorpado</span>
                 </div>
 
                 <div className="flex flex-col text-center bg-gray rounded-xl shadow-xs">
                     <img src="../public/cafes/colombia.png" alt="" className="rounded-t-xl" />
-                    <p className="marrom w-full uppercase text-white font-medium p-1">Torra media</p>
+                    <p className="marrom w-full uppercase text-white font-medium p-1">Torra média</p>
                     <h2 className="text-2xl uppercase font-bold mt-3 mb-1">Colombia</h2>
-                    <span className="uppercase text-sm font-bold text-green-900 mb-4">Suave & Encorpado</span>
+                    <span className="uppercase text-sm font-bold text-green-900 mb-4">Balanceado & Notas de castanha</span>
                 </div>
 
                 <div className="flex flex-col text-center bg-gray rounded-xl shadow-xs">
                     <img src="../public/cafes/pike-place.png" alt="cafe pike-place" className="rounded-t-xl" />
-                    <p className="marrom w-full uppercase text-white font-medium p-1">Torra media</p>
-                    <h2 className="text-2xl uppercase font-bold mt-3 mb-1">Brasil Blend</h2>
-                    <span className="uppercase text-sm font-bold text-green-900 mb-4">Suave & Encorpado</span>
+                    <p className="marrom w-full uppercase text-white font-medium p-1">Torra média</p>
+                    <h2 className="text-2xl uppercase font-bold mt-3 mb-1">Pike Place® Roast</h2>
+                    <span className="uppercase text-sm font-bold text-green-900 mb-4">Suave & Balanceado</span>
                 </div>
 
                 <div className="flex flex-col text-center bg-gray rounded-xl shadow-xs">
                     <img src="../public/cafes/espresso-roast.png" alt="espresso-roast" className="rounded-t-xl" />
-                    <p className="marrom w-full uppercase text-white font-medium p-1">Torra media</p>
-                    <h2 className="text-2xl uppercase font-bold mt-3 mb-1">Brasil Blend</h2>
-                    <span className="uppercase text-sm font-bold text-green-900 mb-4">Suave & Encorpado</span>
+                    <p className="marrom w-full uppercase text-white font-medium p-1">Torra escura</p>
+                    <h2 className="text-2xl uppercase font-bold mt-3 mb-1">Espresso Roast</h2>
+                    <span className="uppercase text-sm font-bold text-green-900 mb-4">Complexo & Caramelizado</span>
                 </div>
 
                 <div className="flex flex-col text-center bg-gray rounded-xl shadow-xs">
                     <img src="../public/cafes/sumatra.png" alt="sumatra" className="rounded-t-xl" />
-                    <p className="marrom w-full uppercase text-white font-medium p-1">Torra media</p>
-                    <h2 className="text-2xl uppercase font-bold mt-3 mb-1">Brasil Blend</h2>
-                    <span className="uppercase text-sm font-bold text-green-900 mb-4">Suave & Encorpado</span>
+                    <p className="marrom w-full uppercase text-white font-medium p-1">Torra escura</p>
+                    <h2 className="text-2xl uppercase font-bold mt-3 mb-1">Sumatra</h2>
+                    <span className="uppercase text-sm font-bold text-green-900 mb-4">Terroso & Notas de ervas</span>
                 </div>
 
                 <div className="flex flex-col text-center bg-gray rounded-xl shadow-xs">
                     <img src="../public/cafes/caffe-verona.png" alt="" className="rounded-t-xl" />
-                    <p className="marrom w-full uppercase text-white font-medium p-1">Torra media</p>
-                    <h2 className="text-2xl uppercase font-bold mt-3 mb-1">Brasil Blend</h2>
-                    <span className="uppercase text-sm font-bold text-green-900 mb-4">Suave & Encorpado</span>
+                    <p className="marrom w-full uppercase text-white font-medium p-1">Torra escura</p>
+                    <h2 className="text-2xl uppercase font-bold mt-3 mb-1">Caffè Verona®</h2>
+                    <span className="uppercase text-sm font-bold text-green-900 mb-4">Torrado & Adocicado</span>
                 </div>
 
 
